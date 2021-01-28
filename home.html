@@ -1,0 +1,175 @@
+<HTML>
+<HEAD>
+
+<TITLE>The Fourth KSME-JSME Fluids Engineering Conference (FEC4)</TITLE>
+<META NAME="Producer" CONTENT="mjlee@postech.ac.kr">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; iso-8859-1">
+
+</HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!--- Hide frame from non-javascript browsers
+// JUST IN CASE THIS URL IS REFERENCED BY OTHER THAN "/FEC4/"
+//  WITH WRONG WIDOW WIDTH, OPEN UP A WINDOW "FEC4" WITH CORRECT WINDOW WIDTH
+//  AND INVOKE "/FEC4/index.html" AS NORMAL
+
+if (window.name != "FEC4") {
+//  window.open("/FEC4/","FEC4",
+//  "toolbar,location,directories,status,menubar,scrollbars,resizable,width=735");
+//   history.back();
+}
+
+var browser = navigator.appName;
+
+if (browser.indexOf ("Netscape") != -1) // Netscape browser
+{
+    netscape = true;
+}
+
+nav3plus = false;
+nav4plus = false;
+netscape = false;
+explorer = false;
+
+var browser = navigator.appName;
+
+if (browser.indexOf ("Netscape") != -1)
+    netscape = true;
+if (browser.indexOf ("Microsoft") !=-1)
+    explorer = true;
+
+if (navigator.userAgent.indexOf ("Mozilla") != -1) {
+   nav3plus = parseInt(navigator.appVersion.substring(0,1)) >= 3
+   nav4plus = parseInt(navigator.appVersion.substring(0,1)) >= 4
+}
+
+else {
+// YOU CAN DO A CHECK FOR OTHER BROWSER VERSIONS WHEN THEY FINALLY
+//  SUPPORT THE FULL JAVASCRIPT SPECIFICATION
+
+// if (browser.indexOf ("Netscape") != -1) 
+//         location = "navigat.html";	// jump to Netscape-JavaScript page
+// if (browser.indexOf ("Microsoft") !=-1) 
+//        location = "msie.html";// jump to Internet Explorer/VBScript page
+
+}
+
+with (document) {
+  if ( (netscape && nav3plus) || (explorer && nav4plus)) {
+
+    // REMEMBER TO MAKE THE TOC FRAME WIDER THAN THE GRAPHICS SO THAT
+    //  MENU ITEMS DO NOT REMAIN HIGHLIGHTED WHEN THE POINTER PASSES
+    //  INTO THE NEXT FRAME... IF THE MOUSE MOVES QUICLY ENOUGH THEN
+    //  A mouseOut EVENT STILL WILL NOT BE RECOGNIZED AND THE TOC
+    //  WILL DISPLAY A PICKED AND A HIGHLIGHTED OPTION.
+
+
+//    write ('<FRAMESET COLS="150,*" FRAMEBORDER=yes BORDER=0>\n')
+    write ('<FRAMESET COLS="135,*" FRAMEBORDER=yes BORDER=0>\n')
+    write ('<BASE TARGET="FEC4content">\n')
+//    write ('<FRAME SRC="toc_text.html" NAME="toc" SCROLLING=AUTO MARGINHEIGHT=0 MARGINWIDTH=0 NORESIZE>\n')
+    write ('<FRAME SRC="toc.html" NAME="toc" SCROLLING=AUTO MARGINHEIGHT=0 MARGINWIDTH=0 NORESIZE>\n')
+    write ('<FRAME SRC="homepage.html" NAME="FEC4content" SCROLLING=AUTO MARGINHEIGHT=5 MARGINWIDTH=0 NORESIZE>\n')
+    write ('</FRAMESET>\n')
+
+  } else {
+
+
+//    write ('<FRAMESET COLS="150,*" FRAMEBORDER=no BORDER=0>\n')
+    write ('<FRAMESET COLS="125,*" FRAMEBORDER=no BORDER=0>\n')
+    write ('<BASE TARGET="FEC4content">\n')
+    write ('<FRAME SRC="toc_text.html" NAME="toc" SCROLLING=AUTO MARGINHEIGHT=0 MARGINWIDTH=0 NORESIZE>\n')
+//    write ('<FRAME SRC="toc_not30plus.html" NAME="toc" SCROLLING=AUTO MARGINHEIGHT=5 MARGINWIDTH=5 NORESIZE>\n')
+    write ('<FRAME SRC="homepage.html" NAME="FEC4content" SCROLLING=AUTO MARGINHEIGHT=5 MARGINWIDTH=0 NORESIZE>\n')
+    write ('</FRAMESET>\n')
+  }
+
+}
+
+//      Unhide  --->
+
+</SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+function MakeArray(n){
+   this.length = n;
+   for(var i=0;i<=n;i++)
+           this[i] = 0;
+   return this;
+}
+
+function stepHere(){
+   document.location = urllist[document.urlform.destination.selectedIndex+1];
+   chosenone = document.urlform.destination.selectedIndex+1;
+}
+
+menulength = 4;
+
+urllist = new MakeArray(menulength);
+urldesc = new MakeArray(menulength);
+urllist[1] = "";
+urldesc[1] = "Get a Cert";
+urllist[2] = "https://www.thawte.com/certs/server/request.html";
+urldesc[2] = "Server Certs";
+urllist[3] = "https://www.thawte.com/cgi/enrol/personal/step1.exe";
+urldesc[3] = "Personal Certs";
+urllist[4] = "https://www.thawte.com/certs/developer/enrol.html";
+urldesc[4] = "Developer Certs";
+
+//-->
+
+</script>
+
+<NOFRAMES>
+
+</NOFRAMES>
+
+<BODY BGCOLOR="#000000" TEXT="#FFFF00" 
+      LINK="#FFFF00" ALINK="#FF0000" VLINK="#FF0000">
+
+<!-- In case the browser does not support JavaScript at all -->
+<CENTER>
+<FONT SIZE=-1 FACE="Helvetica,Arial" COLOR="#FF0000">
+<B>IF YOU SEE THIS PAGE, YOUR BROWSER CANNOT BE USED WITH THE FEC4 
+AND UPGRADE IS NECESSARY!</B></FONT>
+
+<HR>
+
+<P>
+<FONT SIZE=+1 FACE="Helvetica,Arial" COLOR="#0088FF">
+You are using a browser 
+<!--#echo var="HTTP_USER_AGENT"--> that is outdated.<BR>
+</FONT>
+<FONT SIZE=+1 FACE="Helvetica,Arial" COLOR="#FFFF00">
+In order to enjoy navigating the FEC4 Web Site, it is absolutely necessary 
+to update your browser. 
+Upon upgrade, you will see it's worth. Immediately and Definitely!
+<!--
+For best results, it is highly recommended to upgrade your browser.
+-->
+</FONT>
+<P>
+
+<FONT SIZE=+1 FACE="Helvetica,Arial" COLOR="#00FF88">
+It takes just a few easy steps to upgrade to the latest Netscape software!<BR>
+Come back soon to http://mech.postech.ac.kr/FEC4/.
+</FONT>
+<P>
+<A HREF="http://cgi.netscape.com/cgi-bin/upgrade.cgi" 
+OnMouseOver="window.status='Netscape Automatic Upgrade'; return true;">
+<IMG SRC="/FEC4/graphics/netscape_tuneup.gif" BORDER=0></A><BR>
+<BLINK>
+<FONT SIZE=-3 FACE="Helvetica,Arial" COLOR="#00FF88">
+<BLINK>
+CLICK TO UPGRADE
+</BLINK>
+</FONT>
+</BLINK>
+<P><P>
+</CENTER>
+
+</BODY>
+</HTML>
